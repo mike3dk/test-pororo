@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tut-pororo"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "tut_pororo"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pororo = "^0.4.2"
+torch = "v1.6.0"
+torchvision = "0.7.0"
+transformers = "4.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
